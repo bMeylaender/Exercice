@@ -1,0 +1,186 @@
+
+
+
+
+nav{
+    background-color: rgb(48, 45, 45) ;
+    padding: 1rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    height: 40px;
+    
+}
+
+nav ul{
+    width: auto;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li{
+    height: 70px;
+}
+
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    display: flex;
+    color: white;
+    align-items: center;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: rgb(78, 77, 77);
+}
+
+
+
+nav li:last-child{
+   
+    background-color: brown;
+}
+
+img{
+    height: 70px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul{
+    list-style-type: none;
+  }
+  
+  footer{
+    /* background-color: blue; */
+  }
+  img{
+    background-color: aqua;
+    width: 24px;
+    height: auto;
+    border: 1px solid black;
+    /* border-radius: 50%; */
+    border-color: black;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .socials{
+    background-color: blue;
+  
+  }
+  
+  a{
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+  }
+  
+  .liens{
+    display: flex;
+    flex-direction: row;
+    max-width: 80%;
+    margin: auto;
+  }
+  
+  .grid{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin: auto;
+  }  
+  body{
+    background-color: #642121;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    background-image:url(/assets/tarte-flambee-flammekueche.jpg);
+    background-size: 100% ;
+}
+h1{
+    color:white ;
+    margin: 4rem;
+    background: #642121;
+
+}
+.histoire{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.image{
+    width: 50%;
+}
+p{
+    color: white;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+#menu {
+    background-color: #fdf0e9;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+  }
+ 
+  #menu h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #962d00;
+  }
+ 
+  .menu-container {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+ 
+  .menu-column {
+    flex: 1;
+    min-width: 280px;
+    background-color: #fffaf5;
+    border: 2px solid #e2c2ae;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+    transition: transform 0.2s ease;
+  }
+ 
+  .menu-column:hover {
+    transform: translateY(-5px);
+  }
+ 
+  .menu-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+ 
+  .menu-column li {
+    margin-bottom: 15px;
+    line-height: 1.4;
+  }
+ 
+  .menu-column li strong {
+    color: #5a2d0c;
+  }
+ 
+  .menu-column li small {
+    display: block;
+    font-size: 14px;
+    color: #7e6b5a;
+  }
