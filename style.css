@@ -95,6 +95,7 @@ img{
     flex-direction: column;
     max-width: 50%;
     margin: auto;
+
   }  
   body{
     background-color: #642121;
@@ -184,3 +185,5 @@ p{
     font-size: 14px;
     color: #7e6b5a;
   }
+ 
+
