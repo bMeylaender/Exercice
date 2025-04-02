@@ -1,0 +1,51 @@
+
+
+
+
+nav{
+    background-color: rgb(48, 45, 45) ;
+    padding: 1rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    height: 40px;
+    
+}
+
+nav ul{
+    width: auto;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li{
+    height: 70px;
+}
+
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    display: flex;
+    color: white;
+    align-items: center;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: rgb(78, 77, 77);
+}
+
+
+
+nav li:last-child{
+   
+    background-color: brown;
+}
+
+img{
+    height: 70px;
+}
