@@ -49,3 +49,50 @@ nav li:last-child{
 img{
     height: 70px;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul{
+    list-style-type: none;
+  }
+  
+  footer{
+    /* background-color: blue; */
+  }
+  img{
+    background-color: aqua;
+    width: 24px;
+    height: auto;
+    border: 1px solid black;
+    /* border-radius: 50%; */
+    border-color: black;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .socials{
+    background-color: blue;
+  
+  }
+  
+  a{
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+  }
+  
+  .liens{
+    display: flex;
+    flex-direction: row;
+    max-width: 80%;
+    margin: auto;
+  }
+  
+  .grid{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin: auto;
+  }  
